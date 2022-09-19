@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-image: url(/bakcground.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+body * {
+    font-family: 'inter', sans-serif;
+}
+
+section {
+    color: rgb(255, 255, 255);
+    
+}
+
+section div {
+    background-color: #555c4b7a;
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-left: 80px;
+}
+
+section div:hover {
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #ffffff;
+}
+
+main {
+    max-width: 580px;
+    width:90%;
+    margin: auto;
+
+    display: grid;
+    gap:  24px;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 24px;
+} 
+
+.sports-pratice  img {
+    width: 90px;
+}
+
+.routes-list img {
+    width: 70px;
+}
+
+li {
+    list-style: none;
+}
+
+.fotoperfil {
+   width: 300px;
+   border-radius: 200px;
+   border: #ffffff solid 7px;
+   display: grid;
+   display: flex;
+   position: relative;
+}
+
+.containerfoto {
+    position: relative;
+}
