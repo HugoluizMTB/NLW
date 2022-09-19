@@ -26,6 +26,7 @@ section div {
     border-radius: 15px;
     padding-top: 4px;
     padding-left: 80px;
+    padding-bottom: 20px;
 }
 
 section div:hover {
@@ -67,19 +68,30 @@ section ul {
     width: 70px;
 }
 
+.social-media {
+    padding: auto;
+}
+
 li {
     list-style: none;
 }
 
 .fotoperfil {
-   width: 300px;
-   border-radius: 200px;
+   width: 200px;
+   border-radius: 100px;
    border: #ffffff solid 7px;
-   display: grid;
-   display: flex;
-   position: relative;
 }
 
-.containerfoto {
-    position: relative;
+header {
+display: flex;
+justify-content: center;
+padding-bottom: 20px;
+padding-top: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    color: white;
 }
